@@ -1,0 +1,49 @@
+Comandos utilizados para criar e compartilhar repositórios no Github.
+
+Passo a passo:
+
+ 	Criar um repositório no Github (colocar o nome)
+  - Deixar o repositório como publico;
+    
+  - Selecionar add a README file
+
+	Digitar o conteúno do repositório e o mesmo pode ser alterado usando a própria interface do Github;
+    Commitar para que as alterações sejam salvas.
+
+	Add. gitignore (irá ignorar alguns arquivos de build que não são esssenciais para versionar o código)
+
+
+ 	Copiar o endereço do repositório do Github 
+
+	Criar uma pasta em sua máquina para desenvolver o conteúdo do repositório.
+
+	Abri o Gitbash para executar os comandos para baixar ou enviar o repositório para o Github 
+
+	Comando para clonar seu repositório:
+ 		git clone (clonar o endereço copiado do repositório no Github)
+
+	Para confirmar se o repositório está baixado na sua máquina local
+	
+	comando:
+		git status
+
+	Criar uma outra pasta para criar um novo repositório .txt, por exemplo
+     	guardar conteúdos interessantes para assimilar o conteúno do curso.
+
+	Comandos para adicionar o nosso novo conteúdo de versão
+	git add .     ou     git -a
+	git status
+
+	git commit -m "inclusão das anotações do curso de Git/Github" (tem que haver comentários coerentes sobre o conteúdo enviado)
+
+	git status
+
+	Comando para enviar o novo conteúdo para o repositório no Github
+	git push origin main
+
+
+
+
+
+
+
